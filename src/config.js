@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "KytHr Nft";
+const description = "take the best nft's from Kythera ";
+const baseUri = "ipfs/QmZBMyNQWvBy8SzWQrGsz8VxMe7a7tVw8NgcNto6fYgWir";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -24,15 +24,12 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 50, //kaç tane nft oluşturmak istiyoruz
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Backgrounds" },
+      { name: "Left eye" },
+      { name: "Right eye" },
+      { name: "Mouth" },
     ],
   },
 ];
