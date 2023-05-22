@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "KytHr Nft";
 const description = "take the best nft's from Kythera ";
-const baseUri = "ipfs/QmZBMyNQWvBy8SzWQrGsz8VxMe7a7tVw8NgcNto6fYgWir";
+const baseUri = "ipfs://QmZBMyNQWvBy8SzWQrGsz8VxMe7a7tVw8NgcNto6fYgWir";
 
 const solanaMetadata = {
   symbol: "YC",
